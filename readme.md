@@ -1,6 +1,6 @@
 # ProTrans: Progression-aware Longitudinal Pretraining for Chest X-ray Analysis
 
-Official PyTorch implementation of **ProTrans**, a progression-aware longitudinal pretraining framework for chest X-ray analysis.
+PyTorch implementation of **ProTrans**, a progression-aware longitudinal pretraining framework for chest X-ray analysis.
 
 ---
 
@@ -8,11 +8,11 @@ Official PyTorch implementation of **ProTrans**, a progression-aware longitudina
 
 ### MIMIC-CXR-JPG
 
-We use the MIMIC-CXR-JPG dataset as the image source. Please obtain access to MIMIC-CXR-JPG through PhysioNet: https://physionet.org/content/mimic-cxr-jpg/
+We use the MIMIC-CXR-JPG dataset as the image source. Please obtain access to MIMIC-CXR-JPG through PhysioNet: https://physionet.org/content/mimic-cxr-jpg/. Save in "./dataset".
 
 ### Progression Annotation
 
-Disease progression information is obtained from Chest ImaGenome (https://physionet.org/content/chest-imagenome/1.0.0/) and further processed to construct longitudinal training samples.
+Disease progression information is obtained from Chest ImaGenome (https://physionet.org/content/chest-imagenome/1.0.0/) and further processed to construct longitudinal training samples. Save in "./dataset"
 
 ### Generate Pretraining Samples
 
@@ -52,6 +52,6 @@ bash scripts/1-1.mimic_train.sh
 
 ## Acknowledgements
 
-This work is based on Diff-RRG, Med-ST, STG. We thank the creators and maintainers of these resources.
+This work is based on [Diff-RRG](https://github.com/HannahYun/Diff-RRG), [Med-ST](https://github.com/SVT-Yang/MedST), STG. We thank the creators and maintainers of these resources.
 
 ---
